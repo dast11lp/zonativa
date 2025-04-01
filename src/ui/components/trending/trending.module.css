@@ -1,0 +1,13 @@
+.trending {
+    position: absolute;
+    top: 25%;
+    right: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: burlywood;
+
+    align-items: center;
+
+    padding: 10px;
+}

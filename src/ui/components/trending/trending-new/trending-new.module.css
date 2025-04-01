@@ -1,0 +1,14 @@
+.trending-new {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    background-color: red;
+}
+
+.img {
+    margin: 5px;
+}
+
+.content {
+    margin: 5px;
+}
