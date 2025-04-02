@@ -1,19 +1,18 @@
 .header-content {
     position: relative;
-    height: 80vh;
+    height: 60vh;
 }
 
 
 
 .background {
-    z-index: -100;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/images/zeldaGrande.jpg');
-    height: 80vh;
+    /* background-image: url('/images/zeldaGrande.jpg'); */
+    height: 60vh;
     background-size: cover;
     background-position: center;
 }

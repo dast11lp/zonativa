@@ -1,7 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bungee&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 :root {
+  /* Definición de fuentes */
+  --font-reading: "Nunito Sans", sans-serif;
+  --font-heading: "Archivo Black", sans-serif;
+  --font-subheading: "Aton", sans-serif;
+  --font-link: "Bungee", sans-serif;
+
+
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 32px;
+
   --background: #ffffff;
+
+  --background-secundary: #18181880;
+
   --foreground: #171717;
+
+  --border-secundary:#f3f3f3ee;
+
+  --primary-color: #5f1df0;
+  --secundary-color: #b9e901;
 }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-reading);
+  font-size: var(--font-size-base);
+
+  color: var(--foreground);
+  background: var(--background);
+}
+
+h1 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xxl);
+
+}
+
+h2 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-subheading);
+  font-size: var(--font-size-lg);
+}
+
+a {
+  font-family: var(--font-link);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+}
+
+/* Clases reutilizables */
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anton {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.archivo-black {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bungee {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -10,25 +100,6 @@
   }
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
 
 a {
   color: inherit;

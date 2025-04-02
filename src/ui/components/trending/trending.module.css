@@ -1,11 +1,11 @@
 .trending {
+    z-index: 500;
     position: absolute;
-    top: 25%;
+    top: 15%;
     right: 150px;
     display: flex;
     flex-direction: column;
-    width: 350px;
-    background-color: burlywood;
+    max-width: 380px;
 
     align-items: center;
 
